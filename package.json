@@ -23,15 +23,15 @@
   "dependencies": {
     "@reown/appkit": "^1.8.12",
     "@reown/appkit-adapter-ethers": "^1.8.12",
-    "ethers": "^6.13.5"
+    "chart.js": "^4.5.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "ethers": "^6.13.5",
+    "vue-chartjs": "^5.3.2"
   },
   "peerDependencies": {
     "@d2sg/cms": "^1.0.0-beta.1",
-    "chart.js": "^4.0.0",
-    "chartjs-plugin-datalabels": "^2.0.0",
     "pinia": "^3.0.0",
-    "vue": "^3.5.0",
-    "vue-chartjs": "^5.0.0"
+    "vue": "^3.5.0"
   },
   "repository": {
     "type": "git",
