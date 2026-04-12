@@ -62,8 +62,8 @@ import { computed, inject, onBeforeUnmount, onMounted, provide, ref } from 'vue'
 import Buy from './presale/Buy.vue';
 import Stake from './presale/Stake.vue';
 import Status from './presale/Status.vue';
-import { usePresaleContext } from '@d2sg/cms/composables/usePresaleContext';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { usePresaleContext } from '../composables/usePresaleContext';
+import { getTokenSymbol } from '../utils/tokenFormat';
 
 defineProps({
   content: {

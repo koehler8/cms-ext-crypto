@@ -1,7 +1,7 @@
 {
   "name": "@d2sg/cms-ext-presale",
-  "version": "1.0.0",
-  "description": "Presale extension for @d2sg/cms — token presale, staking, tokenomics, and analytics",
+  "version": "1.1.0",
+  "description": "Presale extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -10,13 +10,25 @@
   },
   "files": [
     "index.js",
+    "setup.js",
     "extension.config.json",
     "content.defaults.json",
     "components",
+    "stores",
+    "utils",
+    "plugins",
+    "composables",
     "README.md"
   ],
+  "dependencies": {
+    "@reown/appkit": "^1.8.12",
+    "@reown/appkit-adapter-ethers": "^1.8.12",
+    "ethers": "^6.13.5"
+  },
   "peerDependencies": {
-    "@d2sg/cms": "^1.0.0-beta.1"
+    "@d2sg/cms": "^1.0.0-beta.1",
+    "pinia": "^3.0.0",
+    "vue": "^3.5.0"
   },
   "repository": {
     "type": "git",

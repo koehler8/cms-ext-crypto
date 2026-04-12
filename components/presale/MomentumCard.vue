@@ -20,7 +20,7 @@
 <script setup>
 import { computed, inject } from 'vue';
 import ProgressFomo from '../ProgressFomo.vue';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../../utils/tokenFormat';
 
 defineProps({
   content: {

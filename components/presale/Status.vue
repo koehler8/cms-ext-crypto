@@ -131,7 +131,7 @@ import StatusMetric from './StatusMetric.vue';
 import { formatDecimal, formatUsd } from '@d2sg/cms/utils/formatNumber';
 import UnitChip from '@d2sg/cms/components/ui/UnitChip.vue';
 import SkeletonPulse from '@d2sg/cms/components/ui/SkeletonPulse.vue';
-import { getPresaleReadContract, getRegistryContract } from '@d2sg/cms/utils/presaleContracts';
+import { getPresaleReadContract, getRegistryContract } from '../../utils/presaleContracts';
 
 let readProvider;
 let presaleContractAddress;

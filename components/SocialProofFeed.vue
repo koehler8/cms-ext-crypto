@@ -78,7 +78,7 @@
 <script setup>
 import { computed, inject, onBeforeUnmount, onMounted, ref } from 'vue';
 import { trackEvent } from '@d2sg/cms/utils/analytics';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../utils/tokenFormat';
 
 const pageContent = inject('pageContent', ref({}));
 const siteData = inject('siteData', ref({}));

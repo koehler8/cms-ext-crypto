@@ -12,7 +12,7 @@ import {
 } from './buyTextHelpers.js';
 import {
   getPresaleReadContract,
-} from '@d2sg/cms/utils/presaleContracts';
+} from '../../utils/presaleContracts';
 
 /**
  * Composable that manages FOMO / momentum display state:

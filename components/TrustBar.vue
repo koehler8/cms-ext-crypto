@@ -132,7 +132,7 @@
 import { computed, inject, onBeforeUnmount, ref } from 'vue';
 import { trackEvent } from '@d2sg/cms/utils/analytics';
 import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../utils/tokenFormat';
 
 const token = import.meta.env.VITE_TOKEN || '';
 const normalizedToken = token.toLowerCase();

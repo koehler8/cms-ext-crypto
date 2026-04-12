@@ -30,7 +30,7 @@
 
 <script setup>
 import { computed } from 'vue';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../../utils/tokenFormat';
 
 const tokenSymbol = getTokenSymbol();
 const DEFAULT_TITLE = tokenSymbol ? `${tokenSymbol} Makes the Fun Real` : 'Why holders lock in now';

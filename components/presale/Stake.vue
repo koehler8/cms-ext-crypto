@@ -110,7 +110,7 @@
   import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
   import { formatPercent, formatTokenAmount } from '@d2sg/cms/utils/formatNumber';
   import StatusMetric from './StatusMetric.vue';
-  import { getPresaleReadContract, getPresaleWriteContract, getRegistryContract } from '@d2sg/cms/utils/presaleContracts';
+  import { getPresaleReadContract, getPresaleWriteContract, getRegistryContract } from '../../utils/presaleContracts';
 
   const appKitProvider = useAppKitProvider("eip155");
 

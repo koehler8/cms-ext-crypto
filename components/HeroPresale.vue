@@ -56,11 +56,11 @@ import { ChainController } from '@reown/appkit-controllers';
 import { useComingSoonInterstitial } from '@d2sg/cms/composables/useComingSoonInterstitial';
 import { usePromoBackgroundStyles } from '@d2sg/cms/composables/usePromoBackgroundStyles';
 import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
-import { requestScrollToPresale } from '@d2sg/cms/utils/scrollToPresale';
-import { setPendingWalletConnectContext, peekPendingWalletConnectContext, trackWalletConnectedOnce } from '@d2sg/cms/utils/walletTracking';
+import { requestScrollToPresale } from '../utils/scrollToPresale';
+import { setPendingWalletConnectContext, peekPendingWalletConnectContext, trackWalletConnectedOnce } from '../utils/walletTracking';
 import { useComingSoonResolver } from '@d2sg/cms/composables/useComingSoonConfig';
 import { useTokenResponsiveImage } from '@d2sg/cms/utils/imageSources';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../utils/tokenFormat';
 
 const HERO_CTA_TARGET = '#centerPresale';
 const SCROLL_MARGIN = 32;

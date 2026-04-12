@@ -764,7 +764,7 @@ import { useBuyTransaction } from './useBuyTransaction.js';
 import { useFomoProgress } from './useFomoProgress.js';
 import UnitChip from '@d2sg/cms/components/ui/UnitChip.vue';
 import { formatDecimal, formatUsd, formatTokenAmount, formatPercent } from '@d2sg/cms/utils/formatNumber';
-import { getTokenSymbol } from '@d2sg/cms/utils/tokenFormat';
+import { getTokenSymbol } from '../../utils/tokenFormat';
 import {
   PAYMENT_ASSETS,
   createPaymentAssetMap,
@@ -777,7 +777,7 @@ import {
   getPresaleReadContract,
   getPresaleWriteContract,
   getRegistryContract,
-} from '@d2sg/cms/utils/presaleContracts';
+} from '../../utils/presaleContracts';
 
 const ETHERSCAN_TX_BASE = 'https://etherscan.io/tx/';
 const ETHERSCAN_ADDRESS_BASE = 'https://etherscan.io/address/';

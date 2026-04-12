@@ -14,7 +14,7 @@ import {
   peekPendingWalletConnectContext,
   setPendingWalletConnectContext,
   trackWalletConnectedOnce,
-} from '@d2sg/cms/utils/walletTracking';
+} from '../../utils/walletTracking';
 
 const EXPECTED_CHAIN_ID = 1; // Ethereum mainnet
 
