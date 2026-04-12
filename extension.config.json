@@ -1,0 +1,109 @@
+{
+  "$schema": "../../manifest.schema.json",
+  "slug": "presale",
+  "version": "1.0.0",
+  "provider": {
+    "name": "D2SG Presale Suite",
+    "url": "https://d2sg.com",
+    "contact": "product@d2sg.com"
+  },
+  "license": "MIT",
+  "components": [
+    {
+      "name": "Presale",
+      "label": "Presale Deck",
+      "description": "Composes the status column and buy/stake tabs for the on-chain presale flow.",
+      "module": "./components/Presale.vue",
+      "configKey": "presale",
+      "allowedPages": ["home"]
+    },
+    {
+      "name": "PresaleFaq",
+      "label": "Presale FAQ",
+      "description": "Accordion wrapper for the presale FAQ entries defined under the presale block.",
+      "module": "./components/PresaleFaq.vue",
+      "configKey": "presale",
+      "allowedPages": ["home"],
+      "requiredContent": ["faq"]
+    },
+    {
+      "name": "MomentumCard",
+      "label": "Presale Momentum Card",
+      "description": "Standalone momentum card that mirrors the presale pulse stats and schedule copy.",
+      "module": "./components/presale/MomentumCard.vue",
+      "configKey": "presale",
+      "allowedPages": ["home"],
+      "requiredContent": ["progressFomo"]
+    },
+    {
+      "name": "HeroPresale",
+      "label": "Presale Hero",
+      "description": "Hero block that highlights the presale CTA, badge, and secondary actions.",
+      "module": "./components/HeroPresale.vue",
+      "configKey": "heroPresale"
+    },
+    {
+      "name": "ProgressFomo",
+      "label": "Progress & FOMO Card",
+      "description": "Standalone progress card featuring allocation sold, remaining supply, and next price schedule.",
+      "module": "./components/ProgressFomo.vue",
+      "configKey": "progressFomo",
+      "requiredContent": [
+        "totalAllocation",
+        "soldAmount",
+        "nextPhaseTimestamp"
+      ]
+    },
+    {
+      "name": "CuriosityTeaser",
+      "label": "Curiosity Teaser",
+      "description": "Secret-drop teaser with optional modal CTA and community links.",
+      "module": "./components/CuriosityTeaser.vue",
+      "configKey": "curiosityTeaser",
+      "allowedPages": ["home"]
+    },
+    {
+      "name": "SocialProofFeed",
+      "label": "Social Proof Feed",
+      "description": "Curated social feed with share CTA and optional live community counter.",
+      "module": "./components/SocialProofFeed.vue",
+      "configKey": "socialProof"
+    },
+    {
+      "name": "Tokenomics",
+      "label": "Tokenomics Chart",
+      "description": "Token allocation table paired with the radial chart.",
+      "module": "./components/Tokenomics.vue",
+      "configKey": "tokenomics"
+    },
+    {
+      "name": "Trust",
+      "label": "Trust Section",
+      "description": "Credentials and trust badges block rendered from the `trust` content node.",
+      "module": "./components/Trust.vue",
+      "configKey": "trust"
+    },
+    {
+      "name": "TrustBar",
+      "label": "Trust Contract Bar",
+      "description": "Sticky trust bar that surfaces audit/contract metadata and copying helpers.",
+      "module": "./components/TrustBar.vue",
+      "configKey": "trustBar"
+    },
+    {
+      "name": "CommunityStrip",
+      "label": "Community Strip",
+      "description": "Social proof rail with community links and optional email capture.",
+      "module": "./components/CommunityStrip.vue",
+      "configKey": "communityStrip"
+    },
+    {
+      "name": "PresaleAdmin",
+      "label": "Presale Admin Console",
+      "description": "Operations panel for presale managers (pricing controls, flags, treasury actions).",
+      "module": "./components/PresaleAdmin.vue",
+      "configKey": "presaleAdmin",
+      "allowedPages": ["admin"]
+    }
+  ]
+}

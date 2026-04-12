@@ -1,0 +1,171 @@
+{
+  "presale": {
+    "presaleStatus": "Presale is live",
+    "ethSpend": "ETH to spend",
+    "balance": "Your ETH Balance",
+    "youReceive": "You receive",
+    "defaultStakeAfterPurchase": true,
+    "connectHeadline": "Connect your wallet to get started",
+    "connectButtonLabel": "Buy With Crypto",
+    "needEthButtonLabel": "Need ETH?",
+    "chooseAmountTitle": "Choose your amount",
+    "confirmPurchaseTitle": "Confirm your purchase",
+    "confirmPurchaseSubtitle": "Choose your path. We'll show progress and a success receipt with links to Etherscan.",
+    "amountRaisedLabel": "Amount raised",
+    "timeRemainingLabel": "Time remaining",
+    "timeEndingLabel": "Ending now",
+    "timeEndedLabel": "Presale ended",
+    "countdownLabel": "Next price increase in",
+    "countdownPendingLabel": "Updating schedule…",
+    "countdownUnits": {
+      "day": "DAY",
+      "hour": "HRS",
+      "minute": "MINS",
+      "second": "SECS"
+    },
+    "metricWalletsLabel": "Wallets connected",
+    "sectionLabels": {
+      "summary": "Summary",
+      "status": "Status"
+    },
+    "panelTitles": {
+      "stake": "Stake & Rewards"
+    },
+    "pausedMessage": "The presale is paused right now. Check back soon for the next round.",
+    "walletStatus": {
+      "connected": "Wallet connected",
+      "wrongNetwork": "Wrong network",
+      "switching": "Switching…",
+      "switchButton": "Switch to Ethereum Mainnet"
+    },
+    "networkAlert": {
+      "title": "Network mismatch",
+      "ctaLabel": "Switch network"
+    },
+    "formCopy": {
+      "amountLabel": "Amount",
+      "fillMaxLabel": "Fill with maximum available ETH",
+      "maxButtonLabel": "MAX",
+      "conversionHint": "≈ {amount} {token} at the current presale rate.",
+      "estimateNotice": "You'll receive approximately {amount} {token}*"
+    },
+    "helperSurfaces": {
+      "howItWorks": { "enabled": false },
+      "needEth": { "enabled": false }
+    },
+    "howItWorks": {
+      "buttonLabel": "How it works",
+      "title": "How it works",
+      "stepTitles": [
+        "Connect wallet",
+        "Enter amount",
+        "Confirm purchase"
+      ],
+      "steps": [
+        "Connect your wallet to get started.",
+        "Enter the ETH you want to spend to see live token and USD estimates.",
+        "Review the totals, confirm in your wallet, and lock today's presale price."
+      ],
+      "switchNetworkPrompt": "Switch to Ethereum Mainnet, then enter how much ETH you want to spend.",
+      "pendingPrompt": "Approve the transaction in your wallet and watch for the confirmation banner.",
+      "successPrompt": "Purchase confirmed — your receipt is on Etherscan and staking is available."
+    },
+    "transactionStatus": {
+      "pendingTitle": "Transaction pending…",
+      "pendingMessages": {
+        "short": "Awaiting confirmation on Ethereum (~15 seconds).",
+        "medium": "Still pending… Ethereum is a bit busy. Hang tight.",
+        "long": "Still pending… the network is busy, but your transaction is queued."
+      },
+      "pendingOverlayTitle": "Transaction pending…",
+      "pendingLinkLabel": "View on Etherscan",
+      "pendingBuyLabel": "Purchasing…",
+      "pendingBuyAndStakeLabel": "Buying & Staking…",
+      "successTitle": "Presale purchase confirmed",
+      "successDescription": "You secured {tokens} {tokenSymbol} ({eth} ETH).",
+      "successLinkLabel": "View transaction on Etherscan",
+      "errorTitle": "We couldn't complete that",
+      "errorButtonLabel": "Try again"
+    },
+    "successCelebration": {
+      "dismissLabel": "Dismiss success message",
+      "eyebrow": "Presale success",
+      "transactionLabel": "Transaction",
+      "ethSpentLabel": "ETH Spent"
+    },
+    "accessibility": {
+      "dismissAlert": "Dismiss message",
+      "hideInstructions": "Hide instructions",
+      "closeNeedEth": "Close"
+    },
+    "statusCopy": {
+      "presaleComplete": "Presale is complete",
+      "claimLive": "Unstaked claim is live",
+      "stakedClaimLive": "Token claim is live",
+      "countdownLoading": "Countdown is loading",
+      "priceContext": "Live token price",
+      "priceLoading": "Token price is loading",
+      "emptyMetrics": "Presale metrics will appear once activity starts."
+    },
+    "onboarding": {
+      "enabled": false
+    },
+    "needEth": {
+      "title": "Need ETH for the presale?",
+      "description": "Grab ETH from a trusted on-ramp, then send it to the wallet you connect here.",
+      "links": [
+        {
+          "label": "Buy ETH on Coinbase",
+          "href": "https://www.coinbase.com/buy/ethereum"
+        },
+        {
+          "label": "MoonPay",
+          "href": "https://www.moonpay.com/buy/eth"
+        }
+      ],
+      "note": "Once your transfer lands, reconnect your wallet and finish the checkout."
+    },
+    "secondaryCtas": {
+      "emailSignup": {
+        "enabled": false,
+        "placeholder": "your@email.com",
+        "button": "Get presale updates",
+        "submittingLabel": "Submitting…",
+        "successMessage": "Thanks! Check your inbox to confirm.",
+        "errorMessage": "Please enter a valid email address.",
+        "label": "Email address"
+      }
+    },
+    "faq": {
+      "badge": "FAQ",
+      "defaultOpenIndex": -1,
+      "description": "Quick answers for the curious and the cautious.",
+      "items": [
+        {
+          "question": "Which wallets can I use?",
+          "answer": "We support MetaMask, WalletConnect, and Coinbase Wallet today. If your wallet isn't listed, connect through WalletConnect or import the account into one of these wallets."
+        },
+        {
+          "question": "What does staking do?",
+          "answer": "Staking locks purchased tokens for yield. Flip the Stake after purchase toggle for an automatic deposit or leave it off and stake later from the presale dashboard. Rewards accrue in the same wallet you used to buy."
+        },
+        {
+          "question": "When can I claim my tokens?",
+          "answer": "Claiming opens after the presale unlock. We'll notify holders through the dashboard and Telegram. Until then, your purchase receipt and staking rewards remain visible in the widget."
+        }
+      ]
+    }
+  },
+  "trustBar": {
+    "eyebrow": "Security checkpoint",
+    "etherscanLabel": "View on Etherscan",
+    "copyLabel": "Copy",
+    "copiedLabel": "Copied!",
+    "copyErrorLabel": "Copy failed. Try again.",
+    "badgesHeading": "Status summary",
+    "badges": [
+      { "text": "Verified on Etherscan", "variant": "verified" },
+      { "text": "Multi-sig custody enforced", "variant": "info" }
+    ]
+  }
+}
