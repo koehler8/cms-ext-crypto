@@ -1,4 +1,3 @@
-import '../polyfills/disable-lit-dev-mode-warning.js';
 import { createAppKit } from '@reown/appkit/vue';
 import { EthersAdapter } from '@reown/appkit-adapter-ethers';
 import { mainnet } from '@reown/appkit/networks';

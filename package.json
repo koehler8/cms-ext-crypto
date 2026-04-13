@@ -1,6 +1,6 @@
 {
   "name": "@d2sg/cms-ext-presale",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Presale extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "type": "module",

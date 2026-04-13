@@ -1,14 +1,18 @@
 import { h, toRef } from 'vue';
 import { usePresaleStore } from './stores/presale.js';
+import { ensureAppKit } from './plugins/appKit.js';
 
 /**
  * Extension setup hook — called by the CMS during app initialisation.
  *
- * Registers the appkit-button web component proxy, provides presale state
- * to the component tree, and wires up the scroll-to-presale event listener.
+ * Initializes AppKit wallet connection, registers the appkit-button web
+ * component proxy, and provides presale state to the component tree.
  */
 export async function setup({ app, pinia, siteData, isClient }) {
   if (!isClient) return;
+
+  // Initialize AppKit so wallet modals work
+  ensureAppKit({ siteData });
 
   // Register the appkit-button web component proxy so Vue doesn't warn
   app.component('appkit-button', {
