@@ -74,7 +74,7 @@
 import { computed, inject, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { ChainController, CoreHelperUtil, ModalController } from '@reown/appkit-controllers';
 import { useAppKitAccount } from '@reown/appkit/vue';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 import { markWalletDisconnected, peekPendingWalletConnectContext, setPendingWalletConnectContext, trackWalletConnectedOnce } from '../utils/walletTracking.js';
 import { requestScrollToPresale } from '../utils/scrollToPresale.js';
 

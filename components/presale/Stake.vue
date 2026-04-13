@@ -107,8 +107,8 @@
   import { computed, inject, onMounted, onUnmounted, ref, watch } from 'vue';
   import { BrowserProvider, ethers } from 'ethers';
   import { useAppKitProvider } from "@reown/appkit/vue";
-  import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
-  import { formatPercent, formatTokenAmount } from '@d2sg/cms/utils/formatNumber';
+  import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
+  import { formatPercent, formatTokenAmount } from '@koehler8/cms/utils/formatNumber';
   import StatusMetric from './StatusMetric.vue';
   import { getPresaleReadContract, getPresaleWriteContract, getRegistryContract } from '../../utils/presaleContracts';
 

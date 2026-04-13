@@ -1,9 +1,11 @@
 {
-  "name": "@d2sg/cms-ext-crypto",
-  "version": "1.0.0",
-  "description": "Crypto extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
+  "name": "@koehler8/cms-ext-crypto",
+  "version": "1.0.0-beta.1",
+  "description": "Crypto extension for @koehler8/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "type": "module",
+  "author": "Chris Koehler",
+  "homepage": "https://github.com/koehler8/cms-ext-crypto",
   "exports": {
     ".": "./index.js",
     "./config": "./extension.config.json"
@@ -29,13 +31,13 @@
     "vue-chartjs": "^5.3.2"
   },
   "peerDependencies": {
-    "@d2sg/cms": "^1.0.0-beta.27",
+    "@koehler8/cms": "^1.0.0-beta.1",
     "pinia": "^3.0.0",
     "vue": "^3.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/D2SG/cms-ext-crypto.git"
+    "url": "git+https://github.com/koehler8/cms-ext-crypto.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

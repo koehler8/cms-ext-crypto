@@ -96,8 +96,8 @@
 
 <script setup>
 import { computed, inject, reactive, ref, watch } from 'vue';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
-import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
+import SbCard from '@koehler8/cms/components/ui/SbCard.vue';
 
 const props = defineProps({
   title: {

@@ -121,8 +121,8 @@
 </template>
 
 <script setup>
-import UnitChip from '@d2sg/cms/components/ui/UnitChip.vue';
-import SkeletonPulse from '@d2sg/cms/components/ui/SkeletonPulse.vue';
+import UnitChip from '@koehler8/cms/components/ui/UnitChip.vue';
+import SkeletonPulse from '@koehler8/cms/components/ui/SkeletonPulse.vue';
 
 defineProps({
   label: {

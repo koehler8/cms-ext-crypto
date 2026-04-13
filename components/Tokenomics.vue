@@ -74,7 +74,7 @@
 <script setup>
   import PercentDoughnut from './PercentDoughnut.vue';
   import { computed, inject, ref, onMounted, onBeforeUnmount, onBeforeUpdate, watch, nextTick } from 'vue';
-  import { resolveThemeColor, DEFAULT_THEME_COLOR_ORDER } from '@d2sg/cms/utils/themeColors';
+  import { resolveThemeColor, DEFAULT_THEME_COLOR_ORDER } from '@koehler8/cms/utils/themeColors';
 
   const pageContent = inject('pageContent', ref({}));
 

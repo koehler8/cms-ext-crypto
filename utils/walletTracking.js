@@ -1,18 +1,18 @@
-import { trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 
-const STORAGE_KEY = 'd2sg_wallet_connected_addresses';
+const STORAGE_KEY = 'koehler8_wallet_connected_addresses';
 const DEFAULT_CONNECTOR = 'appkit';
 
 function getGlobalTrackingState() {
   const globalObject = typeof globalThis !== 'undefined' ? globalThis : window;
-  if (!globalObject.__d2sgWalletTracking) {
-    globalObject.__d2sgWalletTracking = {
+  if (!globalObject.__koehler8WalletTracking) {
+    globalObject.__koehler8WalletTracking = {
       loaded: false,
       tracked: new Set(),
       pendingConnect: null,
     };
   }
-  return globalObject.__d2sgWalletTracking;
+  return globalObject.__koehler8WalletTracking;
 }
 
 function normalizeAddress(address) {

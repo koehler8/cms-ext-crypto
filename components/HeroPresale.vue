@@ -53,13 +53,13 @@
 import { computed, inject, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { useAppKit, useAppKitAccount } from '@reown/appkit/vue';
 import { ChainController } from '@reown/appkit-controllers';
-import { useComingSoonInterstitial } from '@d2sg/cms/composables/useComingSoonInterstitial';
-import { usePromoBackgroundStyles } from '@d2sg/cms/composables/usePromoBackgroundStyles';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { useComingSoonInterstitial } from '@koehler8/cms/composables/useComingSoonInterstitial';
+import { usePromoBackgroundStyles } from '@koehler8/cms/composables/usePromoBackgroundStyles';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 import { requestScrollToPresale } from '../utils/scrollToPresale';
 import { setPendingWalletConnectContext, peekPendingWalletConnectContext, trackWalletConnectedOnce } from '../utils/walletTracking';
-import { useComingSoonResolver } from '@d2sg/cms/composables/useComingSoonConfig';
-import { useResponsiveImage } from '@d2sg/cms/utils/imageSources';
+import { useComingSoonResolver } from '@koehler8/cms/composables/useComingSoonConfig';
+import { useResponsiveImage } from '@koehler8/cms/utils/imageSources';
 import { getTokenSymbol } from '../utils/tokenFormat';
 
 const HERO_CTA_TARGET = '#centerPresale';

@@ -2,8 +2,8 @@ import { ref, computed } from 'vue';
 import { ethers } from 'ethers';
 import { resolveError } from './buyTextHelpers.js';
 import { resolvePaymentAssetMeta } from './buyAssets.js';
-import { formatDecimal, formatTokenAmount } from '@d2sg/cms/utils/formatNumber';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { formatDecimal, formatTokenAmount } from '@koehler8/cms/utils/formatNumber';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 
 const ETHERSCAN_TX_BASE = 'https://etherscan.io/tx/';
 

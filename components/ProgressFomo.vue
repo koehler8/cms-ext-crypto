@@ -81,7 +81,7 @@
 <script setup>
 import { computed, inject, onMounted, onUnmounted, ref, watch } from 'vue';
 import FuseMeter from './presale/FuseMeter.vue';
-import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
+import SbCard from '@koehler8/cms/components/ui/SbCard.vue';
 import { getTokenSymbol } from '../utils/tokenFormat';
 
 const tokenSymbol = getTokenSymbol();

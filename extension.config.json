@@ -3,9 +3,9 @@
   "slug": "presale",
   "version": "1.0.0",
   "provider": {
-    "name": "D2SG Presale Suite",
-    "url": "https://d2sg.com",
-    "contact": "product@d2sg.com"
+    "name": "Crypto Presale Extension Suite",
+    "url": "https://github.com/koehler8",
+    "contact": "tucsonconsulting@gmail.com"
   },
   "license": "MIT",
   "components": [

@@ -8,7 +8,7 @@ import {
   shortAddress,
   resolveError,
 } from './buyTextHelpers.js';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 import {
   markWalletDisconnected,
   peekPendingWalletConnectContext,

@@ -128,9 +128,9 @@ import { computed, inject, onMounted, onUnmounted, ref, watch } from 'vue';
 import { ethers } from 'ethers';
 import CountdownTimer from './CountdownTimer.vue';
 import StatusMetric from './StatusMetric.vue';
-import { formatDecimal, formatUsd } from '@d2sg/cms/utils/formatNumber';
-import UnitChip from '@d2sg/cms/components/ui/UnitChip.vue';
-import SkeletonPulse from '@d2sg/cms/components/ui/SkeletonPulse.vue';
+import { formatDecimal, formatUsd } from '@koehler8/cms/utils/formatNumber';
+import UnitChip from '@koehler8/cms/components/ui/UnitChip.vue';
+import SkeletonPulse from '@koehler8/cms/components/ui/SkeletonPulse.vue';
 import { getPresaleReadContract, getRegistryContract } from '../../utils/presaleContracts';
 
 let readProvider;

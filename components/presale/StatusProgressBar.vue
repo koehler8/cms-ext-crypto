@@ -18,7 +18,7 @@
 
 <script setup>
 import { computed } from 'vue';
-import { formatDecimal } from '@d2sg/cms/utils/formatNumber';
+import { formatDecimal } from '@koehler8/cms/utils/formatNumber';
 
 const props = defineProps({
   current: {

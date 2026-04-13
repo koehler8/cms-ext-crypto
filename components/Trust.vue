@@ -28,7 +28,7 @@
 
 <script setup>
 import { computed, inject, ref } from 'vue';
-import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
+import SbCard from '@koehler8/cms/components/ui/SbCard.vue';
 
 const pageContent = inject('pageContent', ref({}));
 

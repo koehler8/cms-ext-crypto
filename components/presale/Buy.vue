@@ -755,15 +755,15 @@ import {
   resolveError,
 } from './buyTextHelpers.js';
 import { useBuyContentConfig } from './useBuyContentConfig.js';
-import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { trackEvent, trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 import { useBuyWallet } from './useBuyWallet.js';
 import BonusIncentive from './BonusIncentive.vue';
 import FirstTimeOnboarding from './FirstTimeOnboarding.vue';
 import { useBuyOnboarding } from './useBuyOnboarding.js';
 import { useBuyTransaction } from './useBuyTransaction.js';
 import { useFomoProgress } from './useFomoProgress.js';
-import UnitChip from '@d2sg/cms/components/ui/UnitChip.vue';
-import { formatDecimal, formatUsd, formatTokenAmount, formatPercent } from '@d2sg/cms/utils/formatNumber';
+import UnitChip from '@koehler8/cms/components/ui/UnitChip.vue';
+import { formatDecimal, formatUsd, formatTokenAmount, formatPercent } from '@koehler8/cms/utils/formatNumber';
 import { getTokenSymbol } from '../../utils/tokenFormat';
 import {
   PAYMENT_ASSETS,

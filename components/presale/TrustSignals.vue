@@ -125,8 +125,8 @@
 
 <script setup>
 import { computed, inject, ref } from 'vue';
-import { trackEvent } from '@d2sg/cms/utils/analytics';
-import { resolveMedia } from '@d2sg/cms/utils/assetResolver';
+import { trackEvent } from '@koehler8/cms/utils/analytics';
+import { resolveMedia } from '@koehler8/cms/utils/assetResolver';
 
 const sanitizeString = (value) => (typeof value === 'string' ? value.trim() : '');
 

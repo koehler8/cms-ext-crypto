@@ -1,4 +1,4 @@
-import { formatDecimal } from '@d2sg/cms/utils/formatNumber';
+import { formatDecimal } from '@koehler8/cms/utils/formatNumber';
 import { CoreHelperUtil } from '@reown/appkit-controllers';
 
 // ─── Text sanitization ──────────────────────────────────────────────

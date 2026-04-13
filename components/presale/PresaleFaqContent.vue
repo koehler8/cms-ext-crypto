@@ -71,7 +71,7 @@
 
 <script setup>
 import { computed, ref, watch } from 'vue';
-import { trackFunnelEvent } from '@d2sg/cms/utils/analytics';
+import { trackFunnelEvent } from '@koehler8/cms/utils/analytics';
 
 const props = defineProps({
   title: {

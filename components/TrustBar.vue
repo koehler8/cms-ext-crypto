@@ -130,8 +130,8 @@
 
 <script setup>
 import { computed, inject, onBeforeUnmount, ref } from 'vue';
-import { trackEvent } from '@d2sg/cms/utils/analytics';
-import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
+import { trackEvent } from '@koehler8/cms/utils/analytics';
+import SbCard from '@koehler8/cms/components/ui/SbCard.vue';
 import { getTokenSymbol } from '../utils/tokenFormat';
 
 const token = import.meta.env.VITE_TOKEN || '';

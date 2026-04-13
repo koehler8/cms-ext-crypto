@@ -58,7 +58,7 @@
 
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
-import SbCard from '@d2sg/cms/components/ui/SbCard.vue';
+import SbCard from '@koehler8/cms/components/ui/SbCard.vue';
 
 const props = defineProps({
   badge: {
