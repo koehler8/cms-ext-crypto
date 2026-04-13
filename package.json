@@ -1,6 +1,6 @@
 {
   "name": "@d2sg/cms-ext-presale",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Presale extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "type": "module",
@@ -29,7 +29,7 @@
     "vue-chartjs": "^5.3.2"
   },
   "peerDependencies": {
-    "@d2sg/cms": "^1.0.0-beta.1",
+    "@d2sg/cms": "^1.0.0-beta.27",
     "pinia": "^3.0.0",
     "vue": "^3.5.0"
   },

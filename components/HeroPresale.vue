@@ -59,7 +59,7 @@ import { trackEvent, trackFunnelEvent } from '@d2sg/cms/utils/analytics';
 import { requestScrollToPresale } from '../utils/scrollToPresale';
 import { setPendingWalletConnectContext, peekPendingWalletConnectContext, trackWalletConnectedOnce } from '../utils/walletTracking';
 import { useComingSoonResolver } from '@d2sg/cms/composables/useComingSoonConfig';
-import { useTokenResponsiveImage } from '@d2sg/cms/utils/imageSources';
+import { useResponsiveImage } from '@d2sg/cms/utils/imageSources';
 import { getTokenSymbol } from '../utils/tokenFormat';
 
 const HERO_CTA_TARGET = '#centerPresale';
@@ -294,7 +294,7 @@ const heroBackgroundWidths = computed(() => {
   return DEFAULT_HERO_BACKGROUND_WIDTHS;
 });
 
-const promoImageSet = useTokenResponsiveImage(token, heroBackgroundImage, {
+const promoImageSet = useResponsiveImage(heroBackgroundImage, {
   widths: heroBackgroundWidths,
   fallbackFormat: 'jpg',
 });

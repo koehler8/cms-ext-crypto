@@ -126,13 +126,9 @@
 <script setup>
 import { computed, inject, ref } from 'vue';
 import { trackEvent } from '@d2sg/cms/utils/analytics';
-import { resolveTokenMedia } from '@d2sg/cms/utils/assetResolver';
-
-const token = (import.meta.env.VITE_TOKEN || '').toLowerCase();
+import { resolveMedia } from '@d2sg/cms/utils/assetResolver';
 
 const sanitizeString = (value) => (typeof value === 'string' ? value.trim() : '');
-
-const resolveMedia = (src) => resolveTokenMedia(token, sanitizeString(src));
 
 const shortAddress = (value) => {
   const safe = sanitizeString(value);
