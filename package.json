@@ -1,7 +1,7 @@
 {
-  "name": "@d2sg/cms-ext-presale",
-  "version": "1.2.0",
-  "description": "Presale extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
+  "name": "@d2sg/cms-ext-crypto",
+  "version": "1.0.0",
+  "description": "Crypto extension for @d2sg/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/D2SG/cms-ext-presale.git"
+    "url": "git+https://github.com/D2SG/cms-ext-crypto.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
