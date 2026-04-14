@@ -1,7 +1,7 @@
 {
   "name": "@koehler8/cms-ext-crypto",
   "version": "1.0.0-beta.1",
-  "description": "Crypto extension for @koehler8/cms — token presale, staking, tokenomics, wallet connection, and analytics",
+  "description": "Crypto extension for Vertex CMS — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
   "keywords": ["cms", "extension", "koehler8", "crypto", "presale", "staking", "web3", "wallet"],
   "bugs": {
