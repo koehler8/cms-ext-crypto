@@ -3,6 +3,10 @@
   "version": "1.0.0-beta.1",
   "description": "Crypto extension for @koehler8/cms — token presale, staking, tokenomics, wallet connection, and analytics",
   "license": "MIT",
+  "keywords": ["cms", "extension", "koehler8", "crypto", "presale", "staking", "web3", "wallet"],
+  "bugs": {
+    "url": "https://github.com/koehler8/cms-ext-crypto/issues"
+  },
   "type": "module",
   "author": "Chris Koehler",
   "homepage": "https://github.com/koehler8/cms-ext-crypto",
@@ -20,7 +24,8 @@
     "utils",
     "plugins",
     "composables",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "@reown/appkit": "^1.8.12",

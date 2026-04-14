@@ -188,3 +188,11 @@ All purchase events extend `buildPurchaseAnalyticsPayload(flow, ethAmount, token
 - Manifest + loader contract: `docs/extensions.md`
 - Site configuration primer: `docs/configuration.md`
 - Architecture overview for presale/web3 flows: `docs/architecture.md`
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+## License
+
+[MIT](./LICENSE)
