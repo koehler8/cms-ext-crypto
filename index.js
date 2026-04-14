@@ -1,5 +1,5 @@
-import manifest from './extension.config.json';
-import contentDefaults from './content.defaults.json';
+import manifest from './extension.config.json' with { type: 'json' };
+import contentDefaults from './content.defaults.json' with { type: 'json' };
 import { setup } from './setup.js';
 
 const components = import.meta.glob('./components/**/*.{vue,js}');
