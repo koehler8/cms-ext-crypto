@@ -1,3 +1,22 @@
+> # ⚠️ SUNSET — do not use
+>
+> **`@koehler8/cms-ext-crypto` is retired as of 2026-09-20 and will receive no
+> further releases.** Nothing in the fleet installs it: it was uninstalled from
+> the last nine sites that carried it, none of which ever rendered one of its
+> components.
+>
+> **Token / NFT surfaces now come from [MintMill](https://mintmill.io) instead**
+> (`engine-mintmill` + `site-mintmill`). MintMill already owns the on-site
+> surface: its `<mintmill-meter>` island is a framework-free IIFE that a static
+> lore site drops in with one `<script>` tag, with no CMS extension involved.
+>
+> **It is also incompatible with the current framework.** It peers `pinia ^3`,
+> and `@koehler8/cms` has bundled **pinia 4** since 1.4.0 — installing the two
+> together is a peer conflict. Reviving this package would mean widening that
+> peer and cutting a release; that is a deliberate decision, not a formality.
+>
+> The code stays here as history. Nothing below this line has been updated.
+
 # Presale Extension
 
 Composable presale deck that powers the Status/Buy/Stake surface, social proof, curiosity teaser, and admin console for on-chain launches. The bundle keeps every presale-focused component, schema, and helper code under `extensions/presale` so marketing-only sites can omit it entirely while token launches only update a single folder.
