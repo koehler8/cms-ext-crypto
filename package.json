@@ -1,18 +1,9 @@
 {
   "name": "@koehler8/cms-ext-crypto",
   "version": "1.0.0-beta.4",
-  "description": "SUNSET (2026-09-20) \u2014 retired, no further releases. Token/NFT surfaces now come from MintMill (mintmill.io). Formerly: crypto extension for Vertex CMS.",
+  "description": "SUNSET (2026-09-20) — retired, no further releases. Token/NFT surfaces now come from MintMill (mintmill.io). Formerly: crypto extension for Vertex CMS.",
   "license": "MIT",
-  "keywords": [
-    "cms",
-    "extension",
-    "koehler8",
-    "crypto",
-    "presale",
-    "staking",
-    "web3",
-    "wallet"
-  ],
+  "keywords": ["cms", "extension", "koehler8", "crypto", "presale", "staking", "web3", "wallet"],
   "bugs": {
     "url": "https://github.com/koehler8/cms-ext-crypto/issues"
   },
